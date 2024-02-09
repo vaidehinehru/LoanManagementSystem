@@ -1,0 +1,27 @@
+#formSwitchBtn{
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px;
+}
+#formSwitchBtn button{
+	font-size: 17px;
+	letter-spacing: 1px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: bolder;
+	width: 160px;
+	height: 40px;
+	border: 0px;
+	cursor: pointer;
+	position: relative;
+	background: transparent;
+	border: 1px solid #747474;
+	transition: 0.4s;
+}
+#formSwitchBtn .active{
+	color: #fff;
+	background: #747474;
+}
+
+.left-align {
+    text-align: left;
+  }
